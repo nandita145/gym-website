@@ -1500,7 +1500,7 @@ Sidebar
   }
   
   /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
-  div.content {
+  div.content-sub {
     margin-left: 200px;
     padding: 1px 16px;
     height: 100vh;
@@ -1514,7 +1514,7 @@ Sidebar
       position: relative;
     }
     .sidebar a {float: left;}
-    div.content {margin-left: 0;}
+    div.content-sub {margin-left: 0;}
   }
   
   /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
